@@ -1,10 +1,18 @@
 import React from 'react'
+import KeyFrame from './components/KeyFrame'
+import ButtonTap from './ButtonTap'
+import TextMotion from './components/TextMotion'
 
 export default function App() {
   return (
     <div>
-      <h1 className=' text-3xl'>Hello</h1>
-      <p>P Tag</p>
+
+      {/* <KeyFrame/> */}
+
+      {/* <ButtonTap/> */}
+
+      <TextMotion/>
+      
     </div>
   )
 }
