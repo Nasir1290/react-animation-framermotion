@@ -24,7 +24,7 @@ export default function TransitionType() {
         className=" m-4"
         initial={{ opacity: 0, x: "-100vh" }}
         animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 2, type: "spring", bounce: 0.5 }}
+        transition={{ duration: 1, type: "spring", bounce: .3 }}
       >
         <h1>Learning Animation</h1>
         <p>
