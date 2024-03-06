@@ -12,7 +12,7 @@ export default function ScrollIntoView() {
     "evening",
   ];
   return (
-    <div className=" ">
+    <div className=" flex flex-col items-center justify-center ">
       {greetings.map((greeting, index) => (
         <ScrollItem key={index} text={greeting} />
       ))}
@@ -24,12 +24,12 @@ const ScrollItem = ({ text }) => {
   return (
     <motion.div
       className=" text-lg bg-sky-500 w-36 h-36 rounded-md mb-4 text-center"
-      initial={{ opacity: 0, x: "-50vh" }}
+      initial={{ opacity: 0, x:-50 }}
       whileInView={{
         opacity: 1,
         x: 0,
         transition: {
-          duration: 1.5,
+          duration: .6,
         },
       }}
       viewport={{ once: false }}
